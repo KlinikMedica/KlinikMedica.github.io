@@ -1511,6 +1511,9 @@ select.form-control:not([size]):not([multiple]){
 	margin-right: 50px;
 
 }
+#singlebutton {
+	margin-left: 20px;
+}
 .sss {
 	margin-top: 70px;
 }
