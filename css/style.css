@@ -1511,8 +1511,8 @@ select.form-control:not([size]):not([multiple]){
 	margin-right: 50px;
 
 }
-#singlebutton {
-	margin-left: 20px;
+.janji {
+	border: 1px solid red;
 }
 .sss {
 	margin-top: 70px;
@@ -1577,3 +1577,31 @@ select.form-control:not([size]):not([multiple]){
 
 
 
+/* Reset default link styles */
+a {
+    text-decoration: none;
+}
+
+/* Tombol styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #af0000;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+	margin-left: 20px;
+}
+
+.button:hover {
+    background-color: #ff0000;
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #850000;
+}
