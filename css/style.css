@@ -1561,7 +1561,14 @@ select.form-control:not([size]):not([multiple]){
 	flex-wrap: wrap;
 }
 
-
+.gigi1 {
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	margin-left: 60px;
+	border: 1px solid red;
+	padding: 15px;
+}
 
 
 
